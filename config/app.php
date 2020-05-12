@@ -169,11 +169,11 @@ return [
         /*
          * Application Service Providers...
          */
-        App\Providers\AppServiceProvider::class,
-        App\Providers\AuthServiceProvider::class,
+        MarineTraffic\Core\Providers\AppServiceProvider::class,
+        MarineTraffic\Core\Providers\AuthServiceProvider::class,
         // App\Providers\BroadcastServiceProvider::class,
-        App\Providers\EventServiceProvider::class,
-        App\Providers\RouteServiceProvider::class,
+        MarineTraffic\Core\Providers\EventServiceProvider::class,
+        MarineTraffic\Core\Providers\RouteServiceProvider::class,
 
     ],
 
