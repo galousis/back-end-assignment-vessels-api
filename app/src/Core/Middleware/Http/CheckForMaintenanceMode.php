@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace MarineTraffic\Core\Middleware\Http;
 
 use Illuminate\Foundation\Http\Middleware\CheckForMaintenanceMode as Middleware;
 

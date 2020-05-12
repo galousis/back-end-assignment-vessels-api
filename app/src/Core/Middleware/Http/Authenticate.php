@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace MarineTraffic\Core\Middleware\Http;
 
 use Illuminate\Auth\Middleware\Authenticate as Middleware;
 

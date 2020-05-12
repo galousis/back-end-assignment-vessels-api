@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Http\Middleware;
+namespace MarineTraffic\Core\Middleware\Http;
 
-use App\Providers\RouteServiceProvider;
+use MarineTraffic\Core\Providers\RouteServiceProvider;
 use Closure;
 use Illuminate\Support\Facades\Auth;
 
