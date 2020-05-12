@@ -1,15 +1,15 @@
 <?php
 
-namespace App;
+namespace MarineTraffic\Containers\User\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
-use Illuminate\Foundation\Auth\User as Authenticatable;
-use Illuminate\Notifications\Notifiable;
+// use Illuminate\Contracts\Auth\MustVerifyEmail;
+// use Illuminate\Foundation\Auth\User as Authenticatable;
+// use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+use MarineTraffic\Core\Abstracts\Models\UserModel;
+
+class User extends UserModel
 {
-    use Notifiable;
-
     /**
      * The attributes that are mass assignable.
      *
