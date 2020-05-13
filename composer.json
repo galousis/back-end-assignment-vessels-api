@@ -37,10 +37,7 @@
             "App\\": "app",
             "MarineTraffic\\": "app\\src"
         },
-        "classmap": [
-            "database/seeds",
-            "database/factories"
-        ]
+        "classmap": []
     },
     "autoload-dev": {
         "psr-4": {
